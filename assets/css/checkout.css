@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-size: 1.2rem;
+  background-color: #f2f2f2;
+}
+.banner-sec h1 {
+  font-size: 38px !important;
+}
+.banner-sec {
+  margin-top: 10px;
+  padding: 20px;
+}
+.addr-user {
+  margin-bottom: 30px;
+}
+
+.items-order {
+  background-color: rgb(152, 152, 152);
+  padding: 20px;
+}
+
+@media only screen and (min-width: 1068px) {
+  .items-order {
+    margin: 0 auto !important;
+    width: 1080px;
+    max-width: 80%;
+  }
+  .main-divdr {
+    display: flex;
+    justify-content: space-between;
+  }
+}

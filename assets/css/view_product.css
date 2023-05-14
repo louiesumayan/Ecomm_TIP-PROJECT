@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+.main_sec {
+  margin-top: 90px;
+}
+
+.categ {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.categ h1 {
+  text-align: center;
+  background-color: #3f3e3e;
+  color: #f5f2f2;
+  margin: 3px 1px;
+  padding: 5px;
+}
+.categ ul li a {
+  color: #141514;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.categ ul li {
+  border-bottom: 1px solid #3f3e3e;
+  margin-top: 10px;
+}
+.categ ul li a:hover {
+  color: rgb(231, 71, 71);
+  padding: 5px;
+}
+.item-detail {
+  background-color: #f5f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.item-detail > img {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.Featured-product h2 {
+  text-align: center;
+  background-color: #3f3e3e;
+  color: #f5f2f2;
+  padding: 5px;
+}
+
+.arts-info {
+  text-align: center;
+  background-color: #5d5b5b;
+  margin: 5px;
+  color: #f5f2f2;
+}
+
+.arts-info img {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.arts-info > .btn-button button {
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-btn-success {
+  background-color: rgba(35, 130, 35, 0.871);
+  color: #f5f2f2;
+  font-weight: 600;
+  border: none !important;
+}
+.btnbtn-warning {
+  background-color: rgba(223, 54, 51, 0.871);
+  color: #f5f2f2;
+  font-weight: 600;
+  border: none !important;
+}
+
+.btn-button button {
+  cursor: pointer;
+  border: 1px solid #3f3e3e;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+@media only screen and (min-width: 1180px) {
+  .categ_main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 1140px;
+    margin: 0 auto !important;
+    max-width: 90%;
+    gap: 20px;
+  }
+  .item-detail img {
+    margin-left: 190px !important;
+    border: 1px solid #3f3e3e;
+    width: 50%;
+  }
+  .item-detail .btn-button {
+    margin-left: 280px !important;
+  }
+  .item-detail {
+    padding: 30px;
+    margin-bottom: 11px;
+  }
+  .item-detail h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .price {
+    color: orange !important;
+    font-size: 25px;
+  }
+  .Featured-product {
+    width: 1140px;
+    margin: 0 auto !important;
+    max-width: 80%;
+  }
+  .suggested-arts {
+    display: flex;
+    flex: 1;
+  }
+  .arts-info {
+    width: 20% !important;
+  }
+  .arts-info h3 {
+    font-size: 20px;
+  }
+  .arts-info .btn-button button {
+    padding: 10px;
+    margin: 5px 10px;
+  }
+  .art-desc {
+    text-align: justify;
+    padding: 20px;
+  }
+}

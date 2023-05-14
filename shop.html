@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/b7c265b79a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Shopping Cart</title>
+    <!-- <link rel="stylesheet" href="./view_product.css" /> -->
+    <link rel="stylesheet" href="./assets/css/shop.css" />
+  </head>
+  <body class="">
+    <!-- header -->
+    <section class="navbars">
+      <div class="nav_container">
+        <nav class="nav_menu">
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <a href="shop.html" class="nav_links active">SHOP</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="about.html" class="nav_links">ABOUT</a>
+            </li>
+            <li class="nav_menu_item">
+              <a href="contact.html" class="nav_links">CONTACT US</a>
+            </li>
+          </ul>
+
+          <div class="logo">
+            <a href="index.html" style="color: #000"
+              ><span class="logo_title" class="active">YSHKETCH</span></a
+            >
+          </div>
+
+          <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- end of header -->
+    <div class="container">
+      <header class="title_cart">
+        <h1>YOUR SHOPPING CART</h1>
+        <div class="shopping">
+          <img src="./assets/img/shopping.svg" alt="" />
+          <span class="quantity">0</span>
+        </div>
+      </header>
+
+      <div class="list"></div>
+    </div>
+    <div class="card">
+      <h1>Cart</h1>
+      <ul class="listCard"></ul>
+      <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer_item">
+            <h1>LIFE IS SHORT BUT ART LIVES FOREVER.</h1>
+            <p class="f_qoutes">
+              Yshketch is an online art gallery that brings together photography
+              and works on paper. Pieces from our collection is a sketch that
+              refers to a quick, informal drawing, that is typically done from
+              life. A sketch can be very useful to artists of all mediums for a
+              variety of reasons.
+            </p>
+          </div>
+          <div class="footer_item">
+            <h1>FOLLOW US</h1>
+            <div class="f_icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer_item">
+            <h1>SIGN UP</h1>
+            <p class="sign_up_p">New Arrivals, exclusive art drops & more</p>
+            <div class="input_group">
+              <input title="email" type="email" name="email" id="email" />
+              <button type="submit">SUBMIT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2_footer container">
+        <ul>
+          <a href="#"> <li>FAQ</li></a>
+          <a href="#"><li>TERMS AND CONDITIONS</li></a>
+          <a href="#"><li>PRIVACY POLICY</li></a>
+        </ul>
+        <p>&copy; COPYRIGHT 2022-2023 YSHKETCH</p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="./app.js"></script>
+    <script src="./assets/script/index.js"></script>
+  </body>
+</html>

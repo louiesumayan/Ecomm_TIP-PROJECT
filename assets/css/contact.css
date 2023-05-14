@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-size: 1.2rem;
+}
+.banner-hero p.hero-text {
+  text-align: center !important;
+  font-size: 16px !important;
+  padding-bottom: 20px;
+}
+
+.faqs-decs {
+  background-color: rgb(185, 191, 191);
+}
+.banner-hero h1 {
+  font-size: 40px;
+  padding: 5px;
+}
+.banner-hero {
+  text-align: center;
+}
